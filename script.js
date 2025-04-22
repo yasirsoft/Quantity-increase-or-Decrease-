@@ -11,7 +11,6 @@ function increaseQty() {
     plusBtn.classList.remove("blocked");
     minusBtn.classList.remove("blocked");
   } else {
-    error.textContent = "✖ আপনি সর্বোচ্চ ১০টি নিতে পারেন!";
     plusBtn.classList.add("blocked");
   }
 }
@@ -29,7 +28,6 @@ function decreaseQty() {
     plusBtn.classList.remove("blocked");
     minusBtn.classList.remove("blocked");
   } else {
-    error.textContent = "✖ আপনি ন্যূনতম ১টি নিতে পারেন!";
     minusBtn.classList.add("blocked");
   }
 }
