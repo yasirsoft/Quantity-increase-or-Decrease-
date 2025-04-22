@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Quantity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Product Order</h2>
+    
+    <div class="quantity-control">
+      <button id="minusBtn" onclick="decreaseQty()"><span class="line"></span>-</button>
+      <input type="number" id="quantity" value="1" readonly>
+      <button id="plusBtn" onclick="increaseQty()"><span class="line"></span>+</button>
+    </div>
+
+    <p id="error" class="error-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
